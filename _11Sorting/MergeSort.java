@@ -1,5 +1,6 @@
 package _11Sorting;
 
+//Time Complexity = O(nLogn)
 public class MergeSort {
 
 	  static void mergeTwoSortedArray(int a[],int left,int mid,int right) {
