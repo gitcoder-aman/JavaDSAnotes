@@ -19,24 +19,24 @@ public class FastPower {
 	}
 	public static void main(String[] args) {
 
-		//System.out.println(fastPower(3,5));
+		System.out.println(fastPower(3,5));
 		
-		BigInteger A,B;
-		
-		A = BigInteger.valueOf(54);
-		B = BigInteger.valueOf(23);
-
-		
-		BigInteger C = A.add(B);
-		
-		BigInteger biginteger = new BigInteger("2");
-		BigInteger val = new BigInteger("3");
-		BigInteger C1 = biginteger.and(val);
-		
-		System.out.println(A);
-		System.out.println(B);
-		System.out.println(C);
-		System.out.println(C1);
+//		BigInteger A,B;
+//		
+//		A = BigInteger.valueOf(54);
+//		B = BigInteger.valueOf(23);
+//
+//		
+//		BigInteger C = A.add(B);
+//		
+//		BigInteger biginteger = new BigInteger("2");
+//		BigInteger val = new BigInteger("3");
+//		BigInteger C1 = biginteger.and(val);
+//		
+//		System.out.println(A);
+//		System.out.println(B);
+//		System.out.println(C);
+//		System.out.println(C1);
 		
 		
 		
