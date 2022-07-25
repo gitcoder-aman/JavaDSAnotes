@@ -39,7 +39,9 @@ public class ThriceElementRepeat {
 
 		int a[] = {3,3,5,2,3,2,2};
 		
-		System.out.println(solve(a));
+//		System.out.println(solve(a));
+		System.out.println(1 << 2);
+		System.out.println(3 & 4);
 	}
 
 }
