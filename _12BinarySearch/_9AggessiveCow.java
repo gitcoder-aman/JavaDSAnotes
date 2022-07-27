@@ -37,7 +37,7 @@ public class _9AggessiveCow {
 				s = mid + 1;
 			}
 			else {
-				e = mid -1;
+				e = mid - 1;
 			}
 		}
 		return ans;
@@ -45,7 +45,7 @@ public class _9AggessiveCow {
 	public static void main(String[] args) {
 
 //		int [] stalls = {4,2,1,3,6};
-		int [] stalls = {0,3,4,7,10,9}
+		int [] stalls = {0,3,4,7,10,9};
 		int k = 4; //‘K’ which denotes the number of cows
 		
 		System.out.println(aggerssiveCow(stalls, k));
