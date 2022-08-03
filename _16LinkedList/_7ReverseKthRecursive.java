@@ -19,7 +19,7 @@ public class _7ReverseKthRecursive {
 			
 			temp = current.next; //safe lose my data
 			current.next = prev;
-			prev = current;
+			prev = current; //prev this is head of k window
 			current = temp;
 			count++;
 		}
