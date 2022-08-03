@@ -1,5 +1,6 @@
 package _16LinkedList;
 
+
 class Node{
 	
 	int data;
