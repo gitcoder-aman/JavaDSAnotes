@@ -27,7 +27,10 @@ package _16LinkedList;
 		Node currNode = head;
 		
 		while(currNode != null) {
-			System.out.print(currNode.data +"->");
+			System.out.print(currNode.data);
+			if(currNode.next != null) {
+				System.out.print("->");
+			}
 			currNode = currNode.next;
 		}
 	}
