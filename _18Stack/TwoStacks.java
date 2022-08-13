@@ -1,7 +1,5 @@
 package _18Stack;
 
-import java.beans.IntrospectionException;
-
 public class TwoStacks {
 
 	int a[];
