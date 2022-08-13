@@ -1,9 +1,9 @@
 package _16LinkedList;
 
 
- class InsertElement {
+ public class InsertElement {
 
-	 Node InsertNode(Node head,int data,int pos) {
+	 public Node InsertNode(Node head,int data,int pos) {
 		
 		Node newNode = new Node(data);
 		
@@ -23,7 +23,7 @@ package _16LinkedList;
 		    return head;
 		
 	}
-	 void printLL(Node head) {
+	public void printLL(Node head) {
 		Node currNode = head;
 		
 		while(currNode != null) {
