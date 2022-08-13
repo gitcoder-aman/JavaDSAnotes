@@ -2,7 +2,7 @@ package _16LinkedList;
 
 public class _4ReverseLL {
 
-	static Node reversLL(Node head) {
+	public static Node reversLL(Node head) {
 		
 		Node curr = head,prev = null;
 		
