@@ -78,9 +78,6 @@ public class BinaryTree {
 		int lh = heightOfBinaryTree(root.left);
 		int rh = heightOfBinaryTree(root.right);
 	   
-		System.out.print(lh);
-		System.out.print(rh);
-		
 		return Math.max(lh, rh) + 1;
 	}
 	

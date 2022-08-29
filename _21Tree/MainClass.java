@@ -15,9 +15,9 @@ public class MainClass {
 		 
 //		 bTree.postOrderTraversal(root);
 		 
-		 System.out.println(bTree.heightOfBinaryTree(root));
+//		 System.out.println(bTree.heightOfBinaryTree(root));
 	
-//		 bTree.printNodesAtKDistance(root, 2);
+		 bTree.printNodesAtKDistance(root, 2);
 	}
 
 }
